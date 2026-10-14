@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Simulation outputs (regenerate with the scripts; keep assets/ curated by hand)
+outputs/
+*.nc
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
